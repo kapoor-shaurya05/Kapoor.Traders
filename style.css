@@ -303,7 +303,7 @@ ul { list-style: none; }
 
 .hero-badge {
   position: absolute;
-  bottom: 48px;
+  bottom: 80px;
   right: 5%;
   z-index: 2;
   background: var(--red);
@@ -479,16 +479,15 @@ ul { list-style: none; }
 }
 
 .why::before {
-  content: 'WHY US';
+  content: 'WHY US?';
   position: absolute;
   font-family: var(--font-display);
   font-size: 18vw;
-  color: rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.07);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  pointer-events: none;
   letter-spacing: 0.1em;
 }
 
